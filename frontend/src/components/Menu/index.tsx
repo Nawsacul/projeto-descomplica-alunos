@@ -18,7 +18,7 @@ const Menu = () => {
           <NavigationLink to="/">Home</NavigationLink>
           <NavigationLink to="/alunos">Alunos</NavigationLink>
           <Link
-            to="https://github.com/nawsacul"
+            to="https://github.com/Nawsacul/projeto-descomplica-alunos"
             target="_blank"
             className={styles.link__descomplica}
           >

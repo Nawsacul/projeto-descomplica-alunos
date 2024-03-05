@@ -8,7 +8,7 @@ Este sistema de filtros de Alunos é uma aplicação web desenvolvida com o intu
 
 **Depois:**
 
-![](diagrama-funcional-atualizado-db.gif)
+![](diagrama-funcional-atualizado-db-maior.gif.gif)
 
 ## Pré-requisitos
 

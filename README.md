@@ -2,7 +2,13 @@
 
 Este sistema de filtros de Alunos é uma aplicação web desenvolvida com o intuito da completude do Teste Prático para a vaga de Desenvolvedor Júnior FullStack na Descomplica. Trata-se de uma aplicação com Front end, Back end, Banco de Dados e Proxy Reverso.
 
+**Antes:**
+
 ![](estrutura.gif)
+
+**Depois:**
+
+![](diagrama-funcional-descomplica.gif)
 
 ## Pré-requisitos
 

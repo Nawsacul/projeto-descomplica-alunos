@@ -1,0 +1,14 @@
+.link {
+  color: var(--lightGray);
+  font-size: 1rem;
+  font-weight: 700;
+  transition: color 0.3s ease-in 0s, background-color 0.3s ease-in 0s;
+}
+
+.link:hover {
+  color: var(--branco);
+}
+
+.linkDestacado {
+  border-bottom: 2px solid var(--branco);
+}

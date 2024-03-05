@@ -1,0 +1,11 @@
+.aluno__container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: .333rem;
+  padding: 1rem;
+}
+
+.aluno__container h3 {
+  line-height: normal;
+}

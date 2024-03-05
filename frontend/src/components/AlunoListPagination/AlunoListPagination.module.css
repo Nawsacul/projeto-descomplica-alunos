@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container button {
+    padding: 1rem;
+    border-radius: 0.333rem;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: var(--mediumGray);
+}
+
+.container button:disabled {
+    background-color: #ccc;
+    color: #666;
+    border: 1px solid #999;
+    cursor: not-allowed;
+}

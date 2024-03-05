@@ -1,0 +1,58 @@
+.navigation {
+  width: 100%;
+
+  padding: 1rem 4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(0.444rem);
+  background-color: rgba(25, 26, 26, 0.92);
+
+  border-bottom: 0.056rem solid rgba(99, 103, 105, 0.5);
+
+  transition: all 0.4s ease 0s;
+
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+}
+
+.navigation__logoContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.4rem;
+  transition: all 0.2s ease 0s;
+}
+
+.navigation__logo {
+  width: 1.5rem;
+}
+
+.navigation__title {
+  color: var(--mediumGray);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.navigation__linksContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.link__descomplica {
+  border: 0.056rem solid var(--branco);
+  color: var(--lightGray);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 2.667rem;
+  padding: 1rem 1.5rem;
+  transition: color 0.3s ease-in 0s, background-color 0.3s ease-in 0s;
+}
+
+.link__descomplica:hover {
+  background-color: var(--branco);
+  color: rgba(25, 26, 26, 0.92);
+}

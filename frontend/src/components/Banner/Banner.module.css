@@ -1,0 +1,130 @@
+.banner {
+  padding: 3rem 4rem 6.25rem;
+  height: calc(100vh - 88px);
+  background-color: var(--azul-escuro);
+  color: var(--branco);
+  display: grid;
+  background-image: url('./banner-background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titulo {
+  font-size: 5rem;
+  margin-top: 4.875rem;
+  margin-bottom: 2rem;
+  font-family: var(--fonte-banner);
+  color: var(--verde-neon);
+  font-weight: 700;
+}
+
+.paragrafo {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+  font-family: var(--fonte-banner);
+  font-weight: 500;
+}
+
+.paragrafo span {
+    color: var(--verde-neon);
+}
+
+.linkToFiltro {
+  background-color: var(--verde-neon);
+  padding: 1rem;
+  border-radius: 2.667rem;
+  color: var(--preto);
+  font-weight: 700;
+  transition: all 0.4s ease 0s;
+}
+
+.linkToFiltro:hover {
+  background-color: var(--verde-neon-hover);
+}
+
+.imagens {
+  position: relative;
+  height: 406px;
+}
+
+.imagens > .minhaFoto {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 18vw;
+  border-radius: 50%;
+}
+
+.imagens > .circuloColorido {
+  position: absolute;
+  right: 7vw;
+  bottom: 2.2vw;
+  width: 25vw;
+}
+
+@media (max-width: 1100px) {
+  .banner {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .titulo {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .paragrafo {
+    margin-bottom: 1.5rem;
+  }
+
+  .imagens {
+    height: 338px;
+  }
+
+  .imagens > .minhaFoto {
+    width: 25vw;
+  }
+
+  .imagens > .circuloColorido {
+    right: 10vw;
+    width: 35vw;
+  }
+}
+
+@media (max-width: 744px) {
+  .banner {
+    padding: 2rem 1rem;
+    display: block;
+  }
+
+  .titulo {
+    margin-bottom: 2rem;
+  }
+
+  .paragrafo {
+    margin-bottom: 2rem;
+  }
+
+  .imagens {
+    height: 307px;
+  }
+
+  .imagens > .minhaFoto,
+  .imagens > .circuloColorido {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .imagens > .minhaFoto {
+    width: 170px;
+    transform: translate(5rem, 0px);
+  }
+
+  .imagens > .circuloColorido {
+    width: 240px;
+    transform: translate(-1.5rem, 0px);
+  }
+}
